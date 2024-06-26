@@ -4,6 +4,7 @@ import { createSlice } from "@reduxjs/toolkit";
 // Define the initial state of the slice
 const initialState = {
 	mode: "dark", // Initial mode is set to 'dark'
+	userId: "63701cc1f03239b7f700000e", // Initial user ID is set to '63701cc1f03239b7f700000e'
 };
 
 // Create a slice of the Redux store
