@@ -13,13 +13,19 @@ import globalReducer from "state";
 // Import Provider component to make the Redux store available to the app
 import { Provider } from "react-redux";
 
+import { setupListeners } from "@reduxjs/toolkit/query";
+import { api } from "./state/api";
+
 // Configure the Redux store
 const store = configureStore({
 	reducer: {
 		// Add the globalReducer to the store under the key 'global'
 		global: globalReducer,
+		[api.reducerPath]: api.reducer,
 	},
+	middleware: getDefault => getDefault().concat(api.middleware),
 });
+setupListeners(store.dispatch);
 
 // Get the root element from the DOM where the app will be rendered
 const root = ReactDOM.createRoot(document.getElementById("root"));
