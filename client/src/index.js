@@ -14,7 +14,7 @@ import globalReducer from "state";
 import { Provider } from "react-redux";
 
 import { setupListeners } from "@reduxjs/toolkit/query";
-import { api } from "./state/api";
+import { api } from "state/api";
 
 // Configure the Redux store
 const store = configureStore({
@@ -23,7 +23,7 @@ const store = configureStore({
 		global: globalReducer,
 		[api.reducerPath]: api.reducer,
 	},
-	middleware: getDefault => getDefault().concat(api.middleware),
+	middleware: (getDefault) => getDefault().concat(api.middleware),
 });
 setupListeners(store.dispatch);
 
