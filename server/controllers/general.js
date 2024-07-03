@@ -1,4 +1,5 @@
 import User from "../models/User.js";
+import Transaction from "../models/Transaction.js";
 
 export const getUser = async (req, res) => {
 	try {

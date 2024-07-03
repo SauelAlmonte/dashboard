@@ -95,12 +95,16 @@ const Customers = () => {
 					},
 				}}
 			>
-				<DataGrid
-					loading={isLoading || !data}
-					getRowId={row => row._id}
-					rows={data || []}
-					columns={columns}
-				/>
+				{data || !isLoading ? (
+					<DataGrid
+						loading={isLoading || !data}
+						getRowId={row => row._id}
+						rows={data || []}
+						columns={columns}
+					/>
+				) : (
+					<>Loading...</>
+				)}
 			</Box>
 		</Box>
 	);
