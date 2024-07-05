@@ -11,6 +11,19 @@ the application.
   [View Live Frontend](https://world-economy-frontend.onrender.com)
 - **Backend**: [View Live Backend](https://world-economy.onrender.com)
 
+## Features
+
+- **Responsive Design**: The dashboard is designed to be responsive, providing
+  an optimal viewing experience across various devices.
+- **State Management**: Efficient state management using Redux Toolkit Query
+  ensures smooth data flow and interaction within the app.
+- **Data Visualization**: Integration with Nivo Charts allows for dynamic and
+  interactive data visualizations.
+- **Authentication**: User authentication is implemented to secure the admin
+  panel.
+- **Real-Time Data Updates**: The dashboard supports real-time data updates,
+  enhancing user experience.
+
 ## Technologies Used
 
 <div>
@@ -59,19 +72,6 @@ the application.
   Render.com.
 - [GitHub](https://github.com/): Used for continuous integration and deployment
   (CI/CD), ensuring that changes are automatically tested and deployed.
-
-## Features
-
-- **Responsive Design**: The dashboard is designed to be responsive, providing
-  an optimal viewing experience across various devices.
-- **State Management**: Efficient state management using Redux Toolkit Query
-  ensures smooth data flow and interaction within the app.
-- **Data Visualization**: Integration with Nivo Charts allows for dynamic and
-  interactive data visualizations.
-- **Authentication**: User authentication is implemented to secure the admin
-  panel.
-- **Real-Time Data Updates**: The dashboard supports real-time data updates,
-  enhancing user experience.
 
 ## License
 
