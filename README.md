@@ -27,8 +27,8 @@ the application.
 ## Technologies Used
 
 <div>
-    <img src="image-7.png" alt="react.js" width="100px" height="40px"/>
-    <img src="image.png" alt="material-ui" width="100px" height="40px"/>
+    <img src="./client/src/assets/image-7.png" alt="react.js" width="100px" height="40px"/>
+    <img src="./client/src/assets/image.png" alt="material-ui" width="100px" height="40px"/>
 </div>
 
 ### Frontend
@@ -47,8 +47,8 @@ the application.
 ### Backend
 
 <div>
-    <img src="image-11.png" alt="nodejs-expressjs" width="100px" height="40px"/>
-    <img src="image-12.png" alt="mongodb" width="100px" height="40px"/>
+    <img src="./client/src/assets/image-11.png" alt="nodejs-expressjs" width="100px" height="40px"/>
+    <img src="./client/src/assets/image-12.png" alt="mongodb" width="100px" height="40px"/>
 </div>
 
 - [Node.js](https://nodejs.org/en): A JavaScript runtime that allows for
@@ -62,8 +62,8 @@ the application.
 ### Deployment
 
 <div>
-    <img src="image-13.png" alt="render" width="100px" height="40px"/>
-    <img src="image-14.png" alt="github" width="100px" height="40px"/>
+    <img src="./client/src/assets/image-13.png" alt="render" width="100px" height="40px"/>
+    <img src="./client/src/assets/image-14.png" alt="github" width="100px" height="40px"/>
 </div>
 
 - [Render](https://render.com/): A unified cloud to build and run all your apps
