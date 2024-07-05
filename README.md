@@ -63,7 +63,7 @@ the application.
 
 <div>
     <img src="./client/src/assets/image-13.png" alt="render" width="100px" height="40px"/>
-    <img src="./client/src/assets/github.png" alt="github" />
+    <img src="./client/src/assets/github.png" alt="github" width="100px" height="40px"/>
 </div>
 
 - [Render](https://render.com/): A unified cloud to build and run all your apps
